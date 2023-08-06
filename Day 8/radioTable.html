@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: rgb(152, 152, 236);
+        }
+        input {
+            margin: 30px 5px;
+        }
+        .main-container{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 200px;
+        }
+        .z{
+            width : 30%;
+            border: 4px solid black;
+            box-shadow: 5px 5px 10px rgb(53, 49, 49);
+            /* display: flex;
+            flex-direction: column;
+            align-items: center; */
+            text-align: center;
+        }
+        .b{
+            width: 40%;
+            
+            border: 4px solid black;
+            box-shadow: 5px 5px 10px rgb(53, 49, 49);
+            text-align: center;
+           
+        }
+        button{
+            margin-top: 20px ;
+            
+            
+        }
+        h1{
+            background-color: cadetblue;
+            text-align: center;
+            height: 60px;
+            
+        }
+
+        .h{
+            margin-bottom: 20px;
+            height: 50px;
+            background-color: cadetblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " class="navbar bg-dark border-bottom border-bottom-dark"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Day 8 Assignment</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            See All
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Day 1/tt.html">Day 1</a></li>
+                            <li><a class="dropdown-item" href="../Day 2/D2.html">Day 2</a></li>
+                            <li><a class="dropdown-item" href="../Day 3/D3-Bootstrap.html">Day 3</a></li>
+                            <li><a class="dropdown-item" href="../Day 4/new.html">Day 4</a></li>
+                            <li><a class="dropdown-item" href="../Day 6/Day-6.html">Day 6</a></li>
+                            <li><a class="dropdown-item" href="../Day 7/Table.html">Day 7 Table</a></li>
+                            <li><a class="dropdown-item" href="../Day 7/Calculator.html">Day 7 Calculator</a></li>
+                            <li><a class="dropdown-item" href="../Day 8/Day8.html">Day 8 Form Design</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <h1 >Generate Table</h1>
+
+    <div class="main-container">
+        <div class="z">
+            <h2 class="h">Select a Number</h2>
+
+            <div><input class="a form-check-input" type="radio" name="select" value="11">- 11 </div>
+            <div><input class="a form-check-input" type="radio" name="select" value="12">- 12</div>
+            <div><input class="a form-check-input" type="radio" name="select" value="13">- 13</div>
+            <div><input class="a form-check-input" type="radio" name="select" value="14">- 14</div>
+            <div><input class="a form-check-input" type="radio" name="select" value="15">- 15</div>
+            <div><input class="a form-check-input" type="radio" name="select" value="16">- 16</div>
+            <div><input class="a form-check-input" type="radio" name="select" value="17">- 17</div>
+            <div><input class="a form-check-input" type="radio" name="select" value="18">- 18</div>
+            <div><input class="a form-check-input" type="radio" name="select" value="19">- 19</div>
+            <div><input class="a form-check-input" type="radio" name="select" value="20">- 20</div>
+
+            <button class="click btn btn-success btn-lg">Click to Generate Table</button>
+
+        </div>
+
+
+
+        <div class="b"> 
+            <h2 class="h">Generated Table</h2>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="./radioTable.js">
+       
+
+    </script>
+
+</body>
+
+</html>

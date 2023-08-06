@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " class="navbar bg-dark border-bottom border-bottom-dark"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Day 7 Assignment</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            See All
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Day 1/tt.html">Day 1</a></li>
+                            <li><a class="dropdown-item" href="../Day 2/D2.html">Day 2</a></li>
+                            <li><a class="dropdown-item" href="../Day 3/D3-Bootstrap.html">Day 3</a></li>
+                            <li><a class="dropdown-item" href="../Day 4/new.html">Day 4</a></li>
+                            <li><a class="dropdown-item" href="../Day 6/Day-6.html">Day 6</a></li>
+                            <li><a class="dropdown-item" href="./Table.html">Day 7</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <h1>Arithmetic Calculator</h1>
+    <div class="calculator">
+        <div class="input-div">
+            <input type="text" id="display">
+
+
+            <table id="table">
+                <tr>
+
+                    <td><button class="btn" onclick="typeButton('7')">7</button></td>
+                    <td><button class="btn" onclick="typeButton('8')">8</button></td>
+                    <td><button class="btn" onclick="typeButton('9')">9</button></td>
+                    <td><button class="btn" onclick="typeButton('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="typeButton('4')">4</button></td>
+                    <td><button class="btn" onclick="typeButton('5')">5</button></td>
+                    <td><button class="btn" onclick="typeButton('6')">6</button></td>
+                    <td><button class="btn" onclick="typeButton('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="typeButton('1')">1</button></td>
+                    <td><button class="btn" onclick="typeButton('2')">2</button></td>
+                    <td><button class="btn" onclick="typeButton('3')">3</button></td>
+                    <td><button class="btn" onclick="typeButton('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" onclick="typeButton('0')">0</button></td>
+                    <td><button id="clear">C</button></td>
+                    <td><button class="btn" onclick="typeButton('/')">/</button></td>
+                    <td><button id="equals">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="./Calculator.js"></script>
+</body>
+
+</html>
